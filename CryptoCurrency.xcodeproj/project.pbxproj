@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0238633D272EF84D00C6676B /* HistoricDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238633C272EF84D00C6676B /* HistoricDataViewModel.swift */; };
+		02386341272F0A3E00C6676B /* ExchangeRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02386340272F0A3E00C6676B /* ExchangeRateModel.swift */; };
+		02386347272F0C7C00C6676B /* ExchangeRates+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02386345272F0C7C00C6676B /* ExchangeRates+CoreDataProperties copy.swift */; };
+		02386348272F0C7C00C6676B /* ExchangeRates+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02386346272F0C7C00C6676B /* ExchangeRates+CoreDataClass copy.swift */; };
+		02ADCC03272D6BF00066E266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC02272D6BF00066E266 /* AppDelegate.swift */; };
+		02ADCC05272D6BF00066E266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC04272D6BF00066E266 /* SceneDelegate.swift */; };
+		02ADCC07272D6BF00066E266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC06272D6BF00066E266 /* ViewController.swift */; };
+		02ADCC0A272D6BF00066E266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ADCC08272D6BF00066E266 /* Main.storyboard */; };
+		02ADCC0D272D6BF10066E266 /* CryptoCurrency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC0B272D6BF10066E266 /* CryptoCurrency.xcdatamodeld */; };
+		02ADCC0F272D6C500066E266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ADCC0E272D6C500066E266 /* Assets.xcassets */; };
+		02ADCC12272D6C500066E266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ADCC10272D6C500066E266 /* LaunchScreen.storyboard */; };
+		02ADCC23272D73070066E266 /* ExchangeRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC22272D73070066E266 /* ExchangeRateViewModel.swift */; };
+		02ADCC2C272D90060066E266 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC2B272D90060066E266 /* CryptoTableViewCell.swift */; };
+		02ADCC30272E6EED0066E266 /* HistoricalDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC2F272E6EED0066E266 /* HistoricalDataController.swift */; };
+		02ADCC33272E6F780066E266 /* HistoricalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ADCC32272E6F780066E266 /* HistoricalDataModel.swift */; };
+		4B1E4C8F870E976E0DACD7F2 /* Pods_CryptoCurrency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516F8EF4657790F8344A281D /* Pods_CryptoCurrency.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0238633C272EF84D00C6676B /* HistoricDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataViewModel.swift; sourceTree = "<group>"; };
+		02386340272F0A3E00C6676B /* ExchangeRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateModel.swift; sourceTree = "<group>"; };
+		02386345272F0C7C00C6676B /* ExchangeRates+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExchangeRates+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		02386346272F0C7C00C6676B /* ExchangeRates+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExchangeRates+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		02ADCBFF272D6BF00066E266 /* CryptoCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ADCC02272D6BF00066E266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02ADCC04272D6BF00066E266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02ADCC06272D6BF00066E266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02ADCC09272D6BF00066E266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02ADCC0C272D6BF10066E266 /* CryptoCurrency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoCurrency.xcdatamodel; sourceTree = "<group>"; };
+		02ADCC0E272D6C500066E266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02ADCC11272D6C500066E266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02ADCC13272D6C510066E266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ADCC22272D73070066E266 /* ExchangeRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewModel.swift; sourceTree = "<group>"; };
+		02ADCC2B272D90060066E266 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		02ADCC2F272E6EED0066E266 /* HistoricalDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataController.swift; sourceTree = "<group>"; };
+		02ADCC32272E6F780066E266 /* HistoricalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataModel.swift; sourceTree = "<group>"; };
+		516F8EF4657790F8344A281D /* Pods_CryptoCurrency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A817A54C5FC2CE76D8133BC /* Pods-CryptoCurrency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrency.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCurrency/Pods-CryptoCurrency.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E7D5071FCF9C6E3B020C12 /* Pods-CryptoCurrency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrency.release.xcconfig"; path = "Target Support Files/Pods-CryptoCurrency/Pods-CryptoCurrency.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02ADCBFC272D6BF00066E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E4C8F870E976E0DACD7F2 /* Pods_CryptoCurrency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02386344272F0B1400C6676B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				02386346272F0C7C00C6676B /* ExchangeRates+CoreDataClass copy.swift */,
+				02386345272F0C7C00C6676B /* ExchangeRates+CoreDataProperties copy.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		02ADCBF6272D6BF00066E266 = {
+			isa = PBXGroup;
+			children = (
+				02ADCC01272D6BF00066E266 /* CryptoCurrency */,
+				02ADCC00272D6BF00066E266 /* Products */,
+				DDB82CFB86CA327684C0B30C /* Pods */,
+				3289A679051E65DB75742FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02ADCC00272D6BF00066E266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02ADCBFF272D6BF00066E266 /* CryptoCurrency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02ADCC01272D6BF00066E266 /* CryptoCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				02386344272F0B1400C6676B /* CoreData */,
+				02ADCC1C272D6D060066E266 /* View */,
+				02ADCC1B272D6CF30066E266 /* ViewModel */,
+				02ADCC1A272D6CE60066E266 /* Model */,
+				02ADCC02272D6BF00066E266 /* AppDelegate.swift */,
+				02ADCC04272D6BF00066E266 /* SceneDelegate.swift */,
+				02ADCC08272D6BF00066E266 /* Main.storyboard */,
+				02ADCC0E272D6C500066E266 /* Assets.xcassets */,
+				02ADCC10272D6C500066E266 /* LaunchScreen.storyboard */,
+				02ADCC13272D6C510066E266 /* Info.plist */,
+				02ADCC0B272D6BF10066E266 /* CryptoCurrency.xcdatamodeld */,
+			);
+			path = CryptoCurrency;
+			sourceTree = "<group>";
+		};
+		02ADCC1A272D6CE60066E266 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02ADCC32272E6F780066E266 /* HistoricalDataModel.swift */,
+				02386340272F0A3E00C6676B /* ExchangeRateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02ADCC1B272D6CF30066E266 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02ADCC22272D73070066E266 /* ExchangeRateViewModel.swift */,
+				0238633C272EF84D00C6676B /* HistoricDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		02ADCC1C272D6D060066E266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02ADCC06272D6BF00066E266 /* ViewController.swift */,
+				02ADCC2B272D90060066E266 /* CryptoTableViewCell.swift */,
+				02ADCC2F272E6EED0066E266 /* HistoricalDataController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3289A679051E65DB75742FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516F8EF4657790F8344A281D /* Pods_CryptoCurrency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB82CFB86CA327684C0B30C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A817A54C5FC2CE76D8133BC /* Pods-CryptoCurrency.debug.xcconfig */,
+				D3E7D5071FCF9C6E3B020C12 /* Pods-CryptoCurrency.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02ADCBFE272D6BF00066E266 /* CryptoCurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ADCC16272D6C510066E266 /* Build configuration list for PBXNativeTarget "CryptoCurrency" */;
+			buildPhases = (
+				8FD8ADE15673FE1308F691CA /* [CP] Check Pods Manifest.lock */,
+				02ADCBFB272D6BF00066E266 /* Sources */,
+				02ADCBFC272D6BF00066E266 /* Frameworks */,
+				02ADCBFD272D6BF00066E266 /* Resources */,
+				A5F8BEDD8E1A658D4CD0FA05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoCurrency;
+			productName = CryptoCurrency;
+			productReference = 02ADCBFF272D6BF00066E266 /* CryptoCurrency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02ADCBF7272D6BF00066E266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					02ADCBFE272D6BF00066E266 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 02ADCBFA272D6BF00066E266 /* Build configuration list for PBXProject "CryptoCurrency" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02ADCBF6272D6BF00066E266;
+			productRefGroup = 02ADCC00272D6BF00066E266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02ADCBFE272D6BF00066E266 /* CryptoCurrency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02ADCBFD272D6BF00066E266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ADCC12272D6C500066E266 /* LaunchScreen.storyboard in Resources */,
+				02ADCC0F272D6C500066E266 /* Assets.xcassets in Resources */,
+				02ADCC0A272D6BF00066E266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FD8ADE15673FE1308F691CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCurrency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F8BEDD8E1A658D4CD0FA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCurrency/Pods-CryptoCurrency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCurrency/Pods-CryptoCurrency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCurrency/Pods-CryptoCurrency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02ADCBFB272D6BF00066E266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ADCC30272E6EED0066E266 /* HistoricalDataController.swift in Sources */,
+				02386341272F0A3E00C6676B /* ExchangeRateModel.swift in Sources */,
+				02ADCC2C272D90060066E266 /* CryptoTableViewCell.swift in Sources */,
+				02ADCC07272D6BF00066E266 /* ViewController.swift in Sources */,
+				0238633D272EF84D00C6676B /* HistoricDataViewModel.swift in Sources */,
+				02ADCC33272E6F780066E266 /* HistoricalDataModel.swift in Sources */,
+				02386348272F0C7C00C6676B /* ExchangeRates+CoreDataClass copy.swift in Sources */,
+				02ADCC23272D73070066E266 /* ExchangeRateViewModel.swift in Sources */,
+				02ADCC03272D6BF00066E266 /* AppDelegate.swift in Sources */,
+				02ADCC05272D6BF00066E266 /* SceneDelegate.swift in Sources */,
+				02ADCC0D272D6BF10066E266 /* CryptoCurrency.xcdatamodeld in Sources */,
+				02386347272F0C7C00C6676B /* ExchangeRates+CoreDataProperties copy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02ADCC08272D6BF00066E266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ADCC09272D6BF00066E266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02ADCC10272D6C500066E266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ADCC11272D6C500066E266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02ADCC14272D6C510066E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02ADCC15272D6C510066E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02ADCC17272D6C510066E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A817A54C5FC2CE76D8133BC /* Pods-CryptoCurrency.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTWMHT2Q57;
+				INFOPLIST_FILE = CryptoCurrency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devpoint.CryptoCurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02ADCC18272D6C510066E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E7D5071FCF9C6E3B020C12 /* Pods-CryptoCurrency.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTWMHT2Q57;
+				INFOPLIST_FILE = CryptoCurrency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devpoint.CryptoCurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02ADCBFA272D6BF00066E266 /* Build configuration list for PBXProject "CryptoCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ADCC14272D6C510066E266 /* Debug */,
+				02ADCC15272D6C510066E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02ADCC16272D6C510066E266 /* Build configuration list for PBXNativeTarget "CryptoCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ADCC17272D6C510066E266 /* Debug */,
+				02ADCC18272D6C510066E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02ADCC0B272D6BF10066E266 /* CryptoCurrency.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02ADCC0C272D6BF10066E266 /* CryptoCurrency.xcdatamodel */,
+			);
+			currentVersion = 02ADCC0C272D6BF10066E266 /* CryptoCurrency.xcdatamodel */;
+			path = CryptoCurrency.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02ADCBF7272D6BF00066E266 /* Project object */;
+}
